@@ -47,7 +47,7 @@ public class ModelTenancyResource extends AbstractDocumentGenerationResource<Mod
     }
 
     protected String contentDispositionFilenameStem() {
-        return "tenancy";
+        return "your-tenancy-agreement";
     }
 
     protected Class getModelClass() {

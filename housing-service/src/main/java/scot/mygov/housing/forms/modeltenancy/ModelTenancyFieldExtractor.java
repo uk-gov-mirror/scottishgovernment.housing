@@ -180,12 +180,14 @@ public class ModelTenancyFieldExtractor implements FieldExtractor<ModelTenancy> 
         String hmoString = "";
         String hmoContactNumber = "";
         String hmoExpiryDate = "";
+        Boolean hmoRenewalApplicationSubmitted = false;
         String showHmoNotification = " ";
         String showHmoFields = " ";
 
         if (isTrue(tenancy.getHmoProperty())) {
             hmoString = "is";
             hmoContactNumber = tenancy.getHmo24ContactNumber();
+            hmoRenewalApplicationSubmitted = tenancy.getHmoRenewalApplicationSubmitted();
             hmoExpiryDate = formatDate(tenancy.getHmoRegistrationExpiryDate());
             showHmoNotification = "";
         }
@@ -199,6 +201,7 @@ public class ModelTenancyFieldExtractor implements FieldExtractor<ModelTenancy> 
 
         fields.put("hmoString", hmoString);
         fields.put("hmoContactNumber", hmoContactNumber);
+        fields.put("hmoRenewalApplicationSubmitted", hmoRenewalApplicationSubmitted);
         fields.put("hmoExpiryDate", hmoExpiryDate);
         fields.put("showHmoNotification", showHmoNotification);
         fields.put("showHmoFields", showHmoFields);
