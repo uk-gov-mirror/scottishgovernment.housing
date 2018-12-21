@@ -1,9 +1,10 @@
 <p>
-The landlord must tell the local council and utility companies that Council Tax, water and sewerage charges
-should be in their name.  The landlord may also do so.  The tenant will have to pay the Council Tax, water
-and sewerage charges unless the tenant is exempt for any reason. For example, if the tenancy states the rent
-includes such charges, or if full time students live in the property, Council Tax may not need to be paid.
-A tenant living alone can also apply to the Council to receive a discount on their Council Tax.
+The tenant must tell the local council and utility companies that Council Tax, water and sewerage charges
+should be in the tenant’s name. The landlord may also do so. The tenant will have to pay the
+Council Tax, water and sewerage charges unless the tenant is exempt for any reason. For example, if the
+tenancy states the rent includes such charges, or if full time students live in the property, Council
+Tax may not need to be paid. A tenant living alone can also apply to the Council to receive a discount
+on their Council Tax.
 </p>
 
 <p>

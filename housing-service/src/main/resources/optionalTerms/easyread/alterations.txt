@@ -40,5 +40,5 @@ If consent is refused, the tenant can appeal to the Tribunal (if the application
 <p>
 The tenant might find it helpful first to discuss the tenant's needs with the Citizens Advice Bureau, Shelter
 Scotland or the local council.  Any of these three groups might agree to talk to the landlord to remind the
-landlord that it must not unreasonably refuse consent.
+landlord that the landlord must not unreasonably refuse consent.
 </p>
