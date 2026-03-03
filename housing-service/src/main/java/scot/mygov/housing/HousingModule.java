@@ -117,6 +117,7 @@ public class HousingModule {
                 (ResteasyClientBuilder) ResteasyClientBuilder.newBuilder()
                         .connectTimeout(connectTimeout, SECONDS)
                         .readTimeout(readTimeout, SECONDS);
+        builder.disableTrustManager();
         Client client = builder.connectionPoolSize(10).build();
         String username = config.getFairRentRegister().getUsername();
         String password = config.getFairRentRegister().getPassword();
