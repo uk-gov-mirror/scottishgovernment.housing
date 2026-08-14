@@ -2,7 +2,7 @@
 . /etc/profile
 set -eu
 JAVA=${JAVA_HOME:-/usr}/bin/java
-JAVA_OPTS=${JAVA_OPTS--XX:+UseParallelGC -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=40 -XX:GCTimeRatio=10 -XX:AdaptiveSizePolicyWeight=90}
+JAVA_OPTS=${JAVA_OPTS--XX:+UseSerialGC -XX:GCTimeRatio=10}
 
 exec "$JAVA" \
   $JAVA_OPTS \
